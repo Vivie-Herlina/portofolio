@@ -1,0 +1,191 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    background-color: #334B35;
+}
+
+header {
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav .logo span {
+    color: #FDAD10;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #FDAD10;
+    color: #304731;
+}
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    color: #FDAD10;
+}
+
+.education, .experience, .skills {
+    margin-bottom: 40px;
+}
+
+.experience-box {
+    background-color: #FDAD10;
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    margin: 0; 
+}
+
+.experience-box p {
+    margin: 10px 0;
+    color: white;
+    line-height: 1.6; 
+}
+
+.timeline {
+    border-left: 2px solid #FFFFFF;
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timeline .event {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.timeline .event::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #F06732;
+    border-radius: 50%;
+}
+
+.timeline .date {
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+.timeline .title {
+    color: #FDAD10;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.timeline .event .details {
+    color: white;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.language, .technical-skill, .coding-skill {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.language p {
+    margin: 0;
+    padding: 10px 15px; 
+    color: white;
+    font-size: 18px;
+    background-color: #FDAD10; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.technical-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technical-skill .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.technical-skill img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.footer-info {
+    margin-bottom: 10px; 
+}
+
