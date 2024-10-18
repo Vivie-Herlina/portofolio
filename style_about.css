@@ -150,6 +150,29 @@ img {
     color: black;
 }
 
+.cv-button-container {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.cv-button {
+    background-color: #FDAD10; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    text-decoration: none; 
+    font-size: 16px; 
+    display: inline-block;
+}
+
+.cv-button:hover {
+    background-color: #304731; 
+    color: white; 
+}
+
+
+
 footer {
     background-color: black;
     padding: 20px;
